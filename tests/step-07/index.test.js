@@ -91,3 +91,4 @@ test('Execute SQL Query with Not Equal to', async () => {
     expect(result.length).toEqual(2);
     expect(result[0]).toHaveProperty('name');
 });
+
